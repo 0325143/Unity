@@ -20103,7 +20103,7 @@ GameObject:
   - component: {fileID: 1936661224}
   - component: {fileID: 1936661222}
   - component: {fileID: 1936661221}
-  - component: {fileID: 1936661227}
+  - component: {fileID: 1936661226}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -20250,7 +20250,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1936661227
+--- !u!114 &1936661226
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20259,51 +20259,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1936661220}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b523ec8934b9be145bb14fdb13032f2f, type: 3}
+  m_Script: {fileID: 11500000, guid: e56b117da65000143800c020ad048008, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _movingCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 2.2386227
-      outSlope: 2.2386227
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0.32235745
-    - serializedVersion: 3
-      time: 1.5142064
-      value: 2.5288405
-      inSlope: 0.0798629
-      outSlope: 0.0798629
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 4.232953
-      value: -3.0331373
-      inSlope: -0.94156027
-      outSlope: -0.94156027
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 5.9394226
-      value: -0.03037262
-      inSlope: 1.7796663
-      outSlope: 1.7796663
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.29187062
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  player: {fileID: 107283141}
+  moveSpeed: 0.5
 --- !u!1 &2025582726
 GameObject:
   m_ObjectHideFlags: 0
